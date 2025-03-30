@@ -1,0 +1,30 @@
+# Composer dependencies
+/vendor/
+composer.lock
+
+# Node dependencies (for Tailwind, etc.)
+/node_modules/
+
+# Tailwind
+/public/css/tailwind.css
+/public/css/tailwind.min.css
+/dist/
+
+# Environment and configuration files
+.env
+
+# Log files and temporary data
+*.log
+tmp/
+cache/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Docker override files (if you use them)
+docker-compose.override.yml
+
+# IDE/editor files
+.vscode/
+.idea/
